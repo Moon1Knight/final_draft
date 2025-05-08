@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { Button } from "@/components/ui/button";
-import { MapPin, Phone, Mail, Clock, Send } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, Send, Facebook, Instagram, Twitter } from 'lucide-react';
 import { Helmet } from 'react-helmet-async';
 
 const Contact = () => {
@@ -206,7 +206,7 @@ const Contact = () => {
               width="100%" 
               height="450" 
               style={{ border: 0 }} 
-              allowFullScreen="" 
+              allowFullScreen={true} 
               loading="lazy"
               title="School Location"
             ></iframe>
