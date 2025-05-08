@@ -1,11 +1,8 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { GraduationCap } from 'lucide-react';
-
 const HeroSection = () => {
-  return (
-    <section className="bg-gradient-to-r from-blue-50 to-purple-50 relative overflow-hidden">
+  return <section className="bg-gradient-to-r from-blue-50 to-purple-50 relative overflow-hidden">
       <div className="container mx-auto px-4 py-12 md:py-24">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 z-10">
@@ -30,19 +27,13 @@ const HeroSection = () => {
             <div className="relative w-full max-w-md">
               <div className="absolute -top-5 -left-5 w-24 h-24 bg-school-orange rounded-full opacity-20 animate-float"></div>
               <div className="absolute -bottom-3 -right-8 w-16 h-16 bg-school-green rounded-full opacity-30 animate-float"></div>
-              <img 
-                src="/lovable-uploads/43644de1-429b-498a-a71c-6dae33131f80.png" 
-                alt="Smart Avenues student" 
-                className="rounded-lg shadow-xl z-10 relative animate-bounce-slow"
-              />
+              
             </div>
           </div>
         </div>
       </div>
       <div className="absolute top-0 right-0 w-64 h-64 bg-school-orange opacity-5 rounded-full transform translate-x-1/2 -translate-y-1/2"></div>
       <div className="absolute bottom-0 left-0 w-80 h-80 bg-school-green opacity-5 rounded-full transform -translate-x-1/2 translate-y-1/2"></div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
