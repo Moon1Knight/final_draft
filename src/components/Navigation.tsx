@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import SchoolLogo from './SchoolLogo';
@@ -69,15 +68,15 @@ const Navigation = () => {
           <div className="flex items-center space-x-6 text-sm">
             <div className="flex items-center">
               <MapPin className="h-3.5 w-3.5 mr-1" />
-              <span>123 Education Street, Knowledge City</span>
+              <span>Rajahmundry</span>
             </div>
             <div className="hidden md:flex items-center">
               <Phone className="h-3.5 w-3.5 mr-1" />
-              <span>+1 (123) 456-7890</span>
+              <span>+91 7997043399</span>
             </div>
             <div className="hidden md:flex items-center">
               <Mail className="h-3.5 w-3.5 mr-1" />
-              <span>info@smartavenues.edu</span>
+              <span>avenuesglobalschool@gmail.com</span>
             </div>
           </div>
           <div className="flex items-center space-x-4">
@@ -100,8 +99,13 @@ const Navigation = () => {
             <motion.div
               whileHover={{ scale: 1.03 }}
               transition={{ type: "spring", stiffness: 400, damping: 10 }}
+              className="flex items-center"
             >
-              <SchoolLogo />
+              <img 
+                src='/lovable-uploads/logo.png' 
+                alt="Avenues Logo"
+                className="h-12 w-auto object-contain md:h-14 lg:h-16"
+              />
             </motion.div>
           </Link>
           

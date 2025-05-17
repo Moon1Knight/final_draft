@@ -63,7 +63,7 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Smart Avenues school colors from the logo
+				// Avenues school colors from the logo
 				school: {
 					red: '#E21C24',
 					orange: '#F15A29',

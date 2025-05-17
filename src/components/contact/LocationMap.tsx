@@ -31,7 +31,7 @@ const LocationMap = () => {
           transition={{ duration: 0.5 }}
         >
           <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63499.5759094865!2d-0.24168120642536509!3d51.5287718408918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47761aa5e6e8edb1%3A0x3dd442b53f765deb!2sLondon%2C%20UK!5e0!3m2!1sen!2s!4v1636647175283!5m2!1sen!2s" 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3815.4387878468815!2d81.78317807492552!3d17.002133883820814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a37a18bc30e9113%3A0xf7d0feacac37b66!2sAvenues%20The%20Global%20School!5e0!3m2!1sen!2sin!4v1746779465524!5m2!1sen!2sin" 
             width="100%" 
             height="400" 
             style={{ border: 0 }} 
@@ -52,7 +52,7 @@ const LocationMap = () => {
           className="p-6"
         >
           <div className="mb-6">
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">Smart Avenues Global School</h3>
+            <h3 className="text-lg font-semibold text-gray-800 mb-2">Avenues Global School</h3>
             <p className="text-gray-600 mb-4">Our campus is conveniently located and easily accessible by various modes of transportation.</p>
             
             <div className="space-y-4">
@@ -60,7 +60,7 @@ const LocationMap = () => {
                 <MapPin className="h-5 w-5 text-school-red mr-3 flex-shrink-0 mt-1" />
                 <div>
                   <p className="font-medium text-gray-800">Address</p>
-                  <p className="text-gray-600">123 Education Street, Knowledge City, 12345</p>
+                  <p className="text-gray-600">Rajahmundry, Andhra Pradesh, IN</p>
                 </div>
               </div>
               
@@ -68,7 +68,7 @@ const LocationMap = () => {
                 <Phone className="h-5 w-5 text-school-green mr-3 flex-shrink-0 mt-1" />
                 <div>
                   <p className="font-medium text-gray-800">Contact</p>
-                  <p className="text-gray-600">+1 (123) 456-7890</p>
+                  <p className="text-gray-600">+91 7997043399</p>
                 </div>
               </div>
               
@@ -83,7 +83,7 @@ const LocationMap = () => {
             </div>
           </div>
           
-          <div className="grid md:grid-cols-2 gap-4">
+          {/* <div className="grid md:grid-cols-2 gap-4">
             <div className="bg-gray-50 p-4 rounded-lg">
               <h4 className="font-medium text-gray-800 mb-2">By Public Transport</h4>
               <p className="text-gray-600 text-sm">Take the Central Line to Oxford Circus, then a 10-minute walk to our campus.</p>
@@ -93,7 +93,7 @@ const LocationMap = () => {
               <h4 className="font-medium text-gray-800 mb-2">By Car</h4>
               <p className="text-gray-600 text-sm">Parking available on campus for visitors. Please register at the security desk.</p>
             </div>
-          </div>
+          </div> */}
         </motion.div>
       )}
     </div>

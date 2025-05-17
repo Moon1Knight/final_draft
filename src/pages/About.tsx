@@ -14,9 +14,9 @@ const About = () => {
   return (
     <div>
       <Helmet>
-        <title>About Us - Smart Avenues Global School</title>
-        <meta name="description" content="Learn about Smart Avenues Global School - our history, mission, vision, and values." />
-        <meta name="keywords" content="Smart Avenues, global school, school history, education mission, school values" />
+        <title>About Us - Avenues Global School</title>
+        <meta name="description" content="Learn about Avenues Global School - our history, mission, vision, and values." />
+        <meta name="keywords" content="Avenues, global school, school history, education mission, school values" />
       </Helmet>
       <Navigation />
       
@@ -34,7 +34,7 @@ const About = () => {
               <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
                 <h2 className="text-2xl font-display font-bold text-school-green mb-4">Our Mission</h2>
                 <p className="text-gray-700">
-                  At Smart Avenues, our mission is to provide a nurturing and stimulating environment where 
+                  At Avenues, our mission is to provide a nurturing and stimulating environment where 
                   children can develop intellectually, emotionally, and socially. We believe in fostering 
                   creativity, critical thinking, and a lifelong love of learning.
                 </p>
@@ -80,7 +80,7 @@ const About = () => {
               <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
                 <h2 className="text-2xl font-display font-bold text-school-red mb-4">Our History</h2>
                 <p className="text-gray-700">
-                  Founded in 2005, Smart Avenues began with a vision to transform education. From its humble 
+                  Founded in 2005, Avenues began with a vision to transform education. From its humble 
                   beginnings with just 50 students, we have grown into a prestigious institution recognized 
                   for academic excellence and holistic development.
                 </p>

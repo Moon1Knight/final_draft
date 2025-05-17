@@ -28,22 +28,22 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Smart Avenues Global School - Nurturing Tomorrow's Leaders</title>
-        <meta name="description" content="Smart Avenues provides quality education that nurtures young minds to reach their full potential in a supportive and innovative environment." />
-        <meta name="keywords" content="Smart Avenues, global school, education, learning, children education, school admission, best school" />
+        <title>Avenues Global School - Nurturing Tomorrow's Leaders</title>
+        <meta name="description" content="Avenues provides quality education that nurtures young minds to reach their full potential in a supportive and innovative environment." />
+        <meta name="keywords" content="Avenues, global school, education, learning, children education, school admission, best school" />
         <link rel="canonical" href="https://smartavenues.edu/" />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://smartavenues.edu/" />
-        <meta property="og:title" content="Smart Avenues Global School" />
+        <meta property="og:title" content="Avenues Global School" />
         <meta property="og:description" content="Nurturing Tomorrow's Leaders through quality education and holistic development" />
         <meta property="og:image" content="https://smartavenues.edu/og-image.jpg" />
         
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://smartavenues.edu/" />
-        <meta name="twitter:title" content="Smart Avenues Global School" />
+        <meta name="twitter:title" content="Avenues Global School" />
         <meta name="twitter:description" content="Nurturing Tomorrow's Leaders through quality education and holistic development" />
         <meta name="twitter:image" content="https://smartavenues.edu/twitter-image.jpg" />
         
@@ -53,7 +53,7 @@ const Index = () => {
             {
               "@context": "https://schema.org",
               "@type": "EducationalOrganization",
-              "name": "Smart Avenues Global School",
+              "name": "Avenues Global School",
               "url": "https://smartavenues.edu",
               "logo": "https://smartavenues.edu/logo.png",
               "sameAs": [
@@ -61,7 +61,7 @@ const Index = () => {
                 "https://www.instagram.com/smartavenues",
                 "https://twitter.com/smartavenues"
               ],
-              "description": "Smart Avenues provides quality education that nurtures young minds to reach their full potential in a supportive and innovative environment.",
+              "description": "Avenues provides quality education that nurtures young minds to reach their full potential in a supportive and innovative environment.",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "123 Education Street",
@@ -94,7 +94,7 @@ const Index = () => {
           <Testimonials />
           <CallToAction />
           <NewsSection />
-          <Newsletter />
+          
           <Footer />
         </motion.div>
       )}

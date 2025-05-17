@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
-import { CheckCircle, Award, Users, BookOpen } from 'lucide-react';
+import { CheckCircle, Award, Users, BookOpen, Star } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const FeatureCard = ({ icon, title, description }) => {
@@ -24,20 +23,33 @@ const FeatureCard = ({ icon, title, description }) => {
 const WhyChooseUs = () => {
   const features = [
     {
-      title: "Excellence in Education",
-      description: "Our curriculum is designed to nurture young minds while making learning enjoyable and engaging.",
-      icon: <BookOpen className="text-school-blue h-6 w-6" />
+      title: "Academic Rigor",
+      description:
+        "The foundation for making learning happen for all at Avenues is the innovative methods of teaching and learning.",
+      icon: <BookOpen className="h-10 w-10 text-blue-600" />,
+      bgColor: "bg-blue-100",
     },
     {
-      title: "Personalized Attention",
-      description: "Individual attention ensures every student receives the support they need to excel.",
-      icon: <Users className="text-school-green h-6 w-6" />
+      title: "ICSE Curriculum",
+      description:
+        "Introducing new CISCE integrated curriculum from pre-school to class 10. Curriculum is comprehensive for the modern times.",
+      icon: <Users className="h-10 w-10 text-red-600" />,
+      bgColor: "bg-red-100",
     },
     {
-      title: "Experienced Educators",
-      description: "Our passionate teachers bring education to life with innovative teaching methods.",
-      icon: <Award className="text-school-orange h-6 w-6" />
-    }
+      title: "Personality in the Making",
+      description:
+        "We at Avenues believe every child has infinite potential. We focus on nurturing the personality of the child to ignite their minds to the infinite possibilities of life.",
+      icon: <Award className="h-10 w-10 text-yellow-600" />,
+      bgColor: "bg-yellow-100",
+    },
+    {
+      title: "Center for Humanness",
+      description:
+        "The Centre focuses on research and training in understanding and appreciation of the human possibilities and cultural values.",
+      icon: <Star className="h-10 w-10 text-green-600" />,
+      bgColor: "bg-green-100",
+    },
   ];
 
   // Animation variants
@@ -71,23 +83,26 @@ const WhyChooseUs = () => {
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-school-blue-dark to-school-blue">Why Smart Avenues</span> Is The Right Choice
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-school-blue-dark to-school-blue">Why Avenues</span> Is The Right Choice
           </h2>
           <p className="text-gray-600 text-lg">
-            Smart Avenues is committed to providing exceptional education that prepares students for a bright future through holistic development.
+             Avenues is committed to providing exceptional education that prepares students for a bright future through holistic development.
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-8 mb-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-4 py-10">
           {features.map((feature, index) => (
             <motion.div
               key={index}
-              initial={{ opacity: 0, y: 20 }}
+              className={`rounded-2xl shadow-md p-8 flex flex-col items-center text-center ${feature.bgColor}`}
+              initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
-              <FeatureCard {...feature} />
+              <div className="mb-4">{feature.icon}</div>
+              <h3 className="text-xl font-bold mb-3 text-gray-800">{feature.title}</h3>
+              <p className="text-gray-700 text-sm">{feature.description}</p>
             </motion.div>
           ))}
         </div>
@@ -103,8 +118,8 @@ const WhyChooseUs = () => {
             <div className="absolute -top-4 -left-4 w-24 h-24 bg-school-orange opacity-10 rounded-full"></div>
             <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-school-green opacity-10 rounded-full"></div>
             <img 
-              src="/lovable-uploads/fa784a72-4089-47d6-9c6e-99df3fce9ae8.png" 
-              alt="Happy students at Smart Avenues" 
+              src="/lovable-uploads/hero3.jpg" 
+              alt="Happy students at Avenues" 
               className="rounded-lg shadow-xl relative z-10"
             />
             <div className="absolute -bottom-5 -right-5 bg-white p-4 rounded-lg shadow-lg z-20">
@@ -127,7 +142,7 @@ const WhyChooseUs = () => {
             transition={{ duration: 0.7 }}
           >
             <h3 className="text-2xl font-display font-semibold mb-6 text-school-blue-dark">
-              The Smart Avenues Difference
+              The Avenues Difference
             </h3>
             <ul className="space-y-5">
               {[
@@ -220,7 +235,7 @@ const WhyChooseUs = () => {
                 <Card className="overflow-hidden shadow-lg h-full transition-all duration-300 hover:shadow-xl">
                   <div className={`h-2 bg-gradient-to-r ${program.color}`}></div>
                   <CardContent className="p-6 flex flex-col h-full">
-                    <div className="text-sm font-medium text-white px-3 py-1 rounded-full inline-block mb-4 bg-gradient-to-r w-fit transition-transform hover:scale-105 cursor-pointer {program.color}">
+                    <div className={`text-sm font-medium text-white px-3 py-1 rounded-full inline-block mb-4 bg-gradient-to-r w-fit transition-transform hover:scale-105 cursor-pointer ${program.color}`}>
                       {program.age}
                     </div>
                     <h4 className="text-xl font-display font-semibold mb-3 text-gray-800">{program.title}</h4>

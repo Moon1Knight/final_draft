@@ -49,7 +49,7 @@ const Footer = () => {
               <SchoolLogo className="mb-4 transform hover:scale-105 transition-transform" />
             </Link>
             <p className="text-gray-600 mb-6">
-              Smart Avenues is dedicated to providing quality education that nurtures young minds and prepares them for future success through holistic development.
+              Avenues is dedicated to providing quality education that nurtures young minds and prepares them for future success through holistic development.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-8 h-8 rounded-full bg-school-blue text-white flex items-center justify-center hover:bg-school-orange transition-colors">
@@ -138,7 +138,7 @@ const Footer = () => {
         {/* Footer Bottom */}
         <div className="border-t border-gray-200 pt-8 pb-12 text-center flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm mb-4 md:mb-0">
-            &copy; {currentYear} Smart Avenues Global School. All rights reserved.
+            &copy; {currentYear} Avenues Global School. All rights reserved.
           </p>
           <div className="flex space-x-6">
             <a href="#" className="text-gray-500 hover:text-gray-700 text-sm">Privacy Policy</a>

@@ -80,8 +80,8 @@ const News = () => {
   return (
     <div>
       <Helmet>
-        <title>News & Events - Smart Avenues Global School</title>
-        <meta name="description" content="Stay updated with the latest news, events, and activities at Smart Avenues Global School." />
+        <title>News & Events - Avenues Global School</title>
+        <meta name="description" content="Stay updated with the latest news, events, and activities at Avenues Global School." />
         <meta name="keywords" content="school news, school events, education updates, student achievements" />
       </Helmet>
       <Navigation />
@@ -92,7 +92,7 @@ const News = () => {
             News & Events
           </h1>
           <p className={`text-xl text-center text-gray-600 mb-16 max-w-3xl mx-auto transition-all duration-700 delay-100 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-            Stay updated with the latest happenings, achievements, and upcoming events at Smart Avenues.
+            Stay updated with the latest happenings, achievements, and upcoming events at Avenues.
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -114,7 +114,7 @@ const News = () => {
           <div className={`grid grid-cols-1 md:grid-cols-2 gap-12 items-center transition-all duration-700 delay-700 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             <div>
               <h2 className="text-3xl font-display font-bold mb-4">Upcoming Events</h2>
-              <p className="mb-6">Mark your calendars for these important upcoming events at Smart Avenues.</p>
+              <p className="mb-6">Mark your calendars for these important upcoming events at Avenues.</p>
               
               <div className="space-y-4">
                 <div className="flex">
@@ -154,7 +154,7 @@ const News = () => {
             
             <div className="bg-white/10 backdrop-blur-sm p-8 rounded-lg">
               <h2 className="text-3xl font-display font-bold mb-6">Subscribe to Our Newsletter</h2>
-              <p className="mb-6">Stay updated with all the latest news and events from Smart Avenues.</p>
+              <p className="mb-6">Stay updated with all the latest news and events from Avenues.</p>
               
               <form className="space-y-4">
                 <div>

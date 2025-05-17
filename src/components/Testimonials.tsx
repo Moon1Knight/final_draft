@@ -9,21 +9,21 @@ const Testimonials = () => {
   
   const testimonials = [
     {
-      quote: "Smart Avenues has provided my child with an exceptional learning environment where they are both challenged and supported. The teachers truly care about each student's growth.",
+      quote: "Avenues has provided my child with an exceptional learning environment where they are both challenged and supported. The teachers truly care about each student's growth.",
       author: "Jessica P.",
       relation: "Parent of Primary Student",
       rating: 5,
       image: "https://randomuser.me/api/portraits/women/45.jpg"
     },
     {
-      quote: "The teachers go above and beyond to ensure each student receives personalized attention and guidance. My son has grown academically and socially since joining Smart Avenues.",
+      quote: "The teachers go above and beyond to ensure each student receives personalized attention and guidance. My son has grown academically and socially since joining Avenues.",
       author: "Rajesh K.",
       relation: "Parent of Secondary Student",
       rating: 5,
       image: "https://randomuser.me/api/portraits/men/32.jpg"
     },
     {
-      quote: "My children have flourished academically and socially since joining Smart Avenues Global School. The school's approach to education is truly holistic.",
+      quote: "My children have flourished academically and socially since joining Avenues Global School. The school's approach to education is truly holistic.",
       author: "Michelle T.",
       relation: "Parent of Two Students",
       rating: 5,
@@ -47,7 +47,7 @@ const Testimonials = () => {
             What <span className="text-school-blue">Parents</span> Say About Us
           </h2>
           <p className="text-gray-600 text-lg">
-            Hear what our community has to say about their experience at Smart Avenues Global School
+            Hear what our community has to say about their experience at Avenues Global School
           </p>
         </div>
         

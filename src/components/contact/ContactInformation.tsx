@@ -14,7 +14,7 @@ const ContactInformation = () => {
           </div>
           <div>
             <h3 className="font-semibold text-gray-800">Our Location</h3>
-            <p className="text-gray-600">123 Education Street, Knowledge City, 12345</p>
+            <p className="text-gray-600">Rajahmundry, Andhra Pradesh, IN</p>
           </div>
         </div>
         
@@ -24,8 +24,8 @@ const ContactInformation = () => {
           </div>
           <div>
             <h3 className="font-semibold text-gray-800">Phone Number</h3>
-            <p className="text-gray-600">+1 (123) 456-7890</p>
-            <p className="text-gray-600">+1 (987) 654-3210</p>
+            <p className="text-gray-600">+91 7997043399</p>
+            {/* <p className="text-gray-600">+1 (987) 654-3210</p> */}
           </div>
         </div>
         
@@ -35,8 +35,8 @@ const ContactInformation = () => {
           </div>
           <div>
             <h3 className="font-semibold text-gray-800">Email Address</h3>
-            <p className="text-gray-600">info@smartavenues.edu</p>
-            <p className="text-gray-600">admissions@smartavenues.edu</p>
+            <p className="text-gray-600">avenuesglobalschool@gmail.com</p>
+            {/* <p className="text-gray-600">admissions@smartavenues.edu</p> */}
           </div>
         </div>
         

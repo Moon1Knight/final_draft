@@ -27,7 +27,7 @@ const CallToAction = () => {
                 Join Our Academic Community
               </h2>
               <p className="text-blue-100 text-lg mb-0">
-                Enrollment for the next academic year is now open. Secure your child's place at Smart Avenues.
+                Enrollment for the next academic year is now open. Secure your child's place at Avenues.
               </p>
             </motion.div>
             

@@ -39,18 +39,18 @@ const Contact = () => {
   return (
     <div>
       <Helmet>
-        <title>Contact Us - Smart Avenues Global School</title>
-        <meta name="description" content="Get in touch with Smart Avenues Global School. Contact us for admissions, inquiries, or to schedule a visit." />
+        <title>Contact Us - Avenues Global School</title>
+        <meta name="description" content="Get in touch with Avenues Global School. Contact us for admissions, inquiries, or to schedule a visit." />
         <meta name="keywords" content="contact school, school admissions, school location, school inquiry, visit campus" />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Contact Smart Avenues Global School" />
+        <meta property="og:title" content="Contact Avenues Global School" />
         <meta property="og:description" content="Reach out to us for admissions and general inquiries." />
         <meta property="og:image" content="https://smartavenues.edu/contact-image.jpg" />
         
         {/* Twitter */}
-        <meta name="twitter:title" content="Contact Smart Avenues Global School" />
+        <meta name="twitter:title" content="Contact Avenues Global School" />
         <meta name="twitter:description" content="Reach out to us for admissions and general inquiries." />
         
         {/* Schema.org structured data */}
@@ -59,13 +59,13 @@ const Contact = () => {
             {
               "@context": "https://schema.org",
               "@type": "ContactPage",
-              "name": "Contact Smart Avenues Global School",
-              "description": "Get in touch with Smart Avenues Global School for admissions and general inquiries.",
+              "name": "Contact Avenues Global School",
+              "description": "Get in touch with Avenues Global School for admissions and general inquiries.",
               "mainEntity": {
                 "@type": "EducationalOrganization",
-                "name": "Smart Avenues Global School",
-                "telephone": "+1-123-456-7890",
-                "email": "info@smartavenues.edu",
+                "name": "Avenues Global School",
+                "telephone": "+91 7997043399",
+                "email": "avenuesglobalschool@gmail.com",
                 "address": {
                   "@type": "PostalAddress",
                   "streetAddress": "123 Education Street",
@@ -114,10 +114,10 @@ const Contact = () => {
             <p className="text-gray-600 mb-4 md:mb-0">Get in touch with us through any of these channels:</p>
             <div className="flex space-x-6">
               <a href="#" className="flex items-center text-school-blue hover:text-school-blue-dark transition-colors">
-                <Mail className="h-5 w-5 mr-2" /> info@smartavenues.edu
+                <Mail className="h-5 w-5 mr-2" /> avenuesglobalschool@gmail.com
               </a>
               <a href="#" className="flex items-center text-school-blue hover:text-school-blue-dark transition-colors">
-                <Phone className="h-5 w-5 mr-2" /> +1 (123) 456-7890
+                <Phone className="h-5 w-5 mr-2" /> +91 7997043399
               </a>
               <div className="hidden md:flex items-center space-x-4">
                 <a href="#" className="text-school-blue hover:text-school-orange transition-colors">
