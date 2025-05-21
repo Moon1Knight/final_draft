@@ -13,6 +13,7 @@ import News from "./pages/News";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
+
 const queryClient = new QueryClient();
 
 const App = () => (
